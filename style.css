@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  color: black ;
+  font-size: 15px ;
+  line-height: 20px;
+  background-image: url("images/unicorn.jpg");
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+.card-white {
+  background: white;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  margin: 20px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card-white h1 {
+  font-size: 2em ;
+}
+
+.card-white h2 {
+  font-size: 1.2em ;
+}
+
+.card-white a {
+  color: #721817;
+  text-decoration: none;
+}
+
+.card-white ul {
+  padding-left: 0;
+}
+
+.card-white li {
+  display: inline-block;
+  padding: 0 5px
+}
+
+.card-white li > a {
+  font-size: 30px;
+}
+.card-white a:hover {
+  color: black;
+}
+
+.img-circle {
+   border-radius: 50%;
+}
+
+.button a {
+  background-color: #183A37;
+  padding: 5px;
+  border-radius: 5px;
+  color : white;
+}
+
+.button {
+  margin: 10px;
+}
+.text-center {
+  text-align: center
+}
+
+/*il faut mettre ce bout de code à la fin pour que container ait bien été défini*/
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container, {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
